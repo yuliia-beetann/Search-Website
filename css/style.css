@@ -1,0 +1,87 @@
+body {
+    background-color: #f1f1f1;
+}
+
+.container {
+    font-family: Open Sans, sans-serif;
+    max-width: 100%;
+}
+
+p {
+    color:#9f9fa1;
+    font-size: 12px;
+    font-weight: 700;
+}
+
+.circle, p {
+display: inline-block;
+}
+
+.circle {
+    margin-right: 10px;
+}
+
+.row {
+    margin: 5px 20px 5px 0px;
+}
+
+.hugesearch-list {
+margin: 0px 10px 0px 20px;
+}
+
+.hugesearch-list li {
+    background-color: #ebebed;
+    padding: 10px;
+    margin: 5px;
+}
+
+.col-title {
+    color:#c2c2c2;
+    text-transform: uppercase;
+    font-weight: 700;
+    margin: 5px 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hugesearch-list li:hover {
+    background-color: #dddddd;
+    z-index: 99;
+    position: relative;
+    transform: scale(1.1);
+    box-shadow: 0 0 25px 0 #1b1b1b73;
+    }
+
+.hugesearch-form {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px 40px;
+}
+
+.hugesearch-submit {
+    width: 8%;
+    height: 80px;
+    border: none;
+}
+
+.hugesearch-submit img {
+    width: 60px;
+    height: 60px;
+}
+
+.hugesearch-input {
+    font-size: 70px;
+    color: #c2c2c2;
+    height: 80px;
+    width: 92%;
+    border: none;
+    background-color: #f1f1f1;
+}
+
+::-webkit-input-placeholder {color:#c2c2c2;}
+::-moz-placeholder          {color:#c2c2c2;}/* Firefox 19+ */
+:-moz-placeholder           {color:#c2c2c2;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#c2c2c2;}
